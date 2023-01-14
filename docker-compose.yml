@@ -9,7 +9,7 @@ services:
   haproxy:
     build: ./haproxy
     ports:
-      - "8090:80"
+      - "8091:80"
       - "8484:8484"
     depends_on:
       - apache1
